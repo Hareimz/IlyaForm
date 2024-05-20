@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'opros_face';
+    src: url(/media/YesevaOne-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+}
+@font-face {
+    font-family: 'scada';
+    src: url(/media/Scada-Bold.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+}
+
+
+body{
+    background-color: #2D2C33;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.opros{
+    background-color: #1B1B1E;
+    border: none;
+    margin-top: 50px;
+    position: sticky;
+    box-shadow: -7px 9px 8px 0px rgba(14, 23, 31, 0.2);
+    border-radius: 15px;
+}
+.name_opros{
+    color: #FFFFFFD9;
+    font-family: 'scada', arial;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: left;
+
+}
+
+.RedStar{
+    color: rgb(255, 99, 71, 0.75);
+}
+
+.name{
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+}
+#name{
+    border: none;
+    border-radius: 5px;
+    background-color: #2D2C33;
+    margin-left: 15px;
+    color: white;
+}
+.group_name{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.second_name{
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+}
+#second_name{
+    border: none;
+    border-radius: 5px;
+    background-color: #2D2C33;
+    margin-left: 15px;
+    color: white;
+}
+.group_second_name{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.third_name{
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 15px;
+}
+#third_name{
+    border: none;
+    border-radius: 5px;
+    background-color: #2D2C33;
+    margin-left: 15px;
+    color: white;
+}
+.group_third_name{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.age{
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+}
+#age{
+    border: none;
+    border-radius: 5px;
+    background-color: #2D2C33;
+    margin-left: 15px;
+    color: white;
+}
+.group_age{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.city{
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+}
+#city{
+    border: none;
+    border-radius: 5px;
+    background-color: #2D2C33;
+    margin-left: 15px;
+    color: white;
+}
+.group_city{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.country{
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+}
+#country{
+    border: none;
+    border-radius: 5px;
+    background-color: #2D2C33;
+    margin-left: 15px;
+    color: white;
+}
+.group_country{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.ogrode{
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+}
+#ogrode{
+    border: none;
+    width: 92%;
+    height: 200px;
+    resize: none;
+    border-radius: 10px;
+    background-color: #2D2C33;
+    margin-left: 15px;
+    color: white;
+}
+.group_ogrode{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.nravitsa{
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+}
+#nravitsa{
+    border: none;
+    width: 92%;
+    height: 200px;
+    resize: none;
+    border-radius: 10px;
+    background-color: #2D2C33;
+    margin-left: 15px;
+    color: white;
+}
+.group_nravitsa{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.pereezd{
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+}
+#pereezd{
+    border-radius: 10px;
+    border: none;
+    width: 92%;
+    height: 200px;
+    resize: none;
+    background-color: #2D2C33;
+    margin-left: 15px;
+    color: white;
+}
+.group_pereezd{
+    position: relative;
+}
+
+
+.button{
+    width: 98%;
+    height: 30px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #2D2C33;
+    margin-top: 50px;
+    color: #FFFFFFD9;
+    font-weight: 800;
+    font-family: 'scada';
+}
+.end{
+    margin-top: 50px;
+    font-family: 'scada';
+    color: #FFFFFFD9;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+

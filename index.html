@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<form action="https://api.web3forms.com/submit" method="POST" class="fist_opros" name="submit-to-google-sheet">
+
+    <input type="hidden" name="access_key" value="11fe8478-8d8b-4a24-a58e-8640059c0dd0">
+
+    <fieldset class="opros">
+        <legend class="name_opros">
+            Опрос
+        </legend>
+
+        <div class="group_name">
+            <p class="name">
+                <span class="RedStar">*</span>
+                Введите имя:
+            </p>
+            <input id="name" name="name" type="text" required autocomplete="on" placeholder=" имя">
+        </div>
+
+        <div class="group_second_name">
+            <p class="second_name">
+                <span class="RedStar">*</span>
+                Введите фамилию:
+            </p>
+            <input id="second_name" name="second_name" type="text" required autocomplete="on" placeholder=" фамилия">
+        </div>
+
+        <div class="group_third_name">
+            <p class="third_name">Введите отчество:</p>
+            <input id="third_name" name='third_name' type="text" autocomplete="on" placeholder=" отчество">
+        </div>
+
+        <div class="group_age">
+            <p class="age">
+                <span class="RedStar">*</span>
+                Введите возраст:
+            </p>
+            <input id="age" name="age" type="number" autocomplete="on" placeholder=" возраст" required>
+        </div>
+
+        <div class="group_country">
+            <p class="country">
+                <span class="RedStar">*</span>
+                Введите страну в которой Вы проживаете:
+            </p>
+            <input id="country" name="country" type="text" autocomplete="on" placeholder=" страна" required>
+        </div>          
+
+        <div class="group_city">
+            <p class="city">
+                <span class="RedStar">*</span>
+                Введите город в котором Вы проживаете:
+            </p>
+            <input id="city" name='city' type="text" autocomplete="on" placeholder=" город" required>
+        </div>
+
+        <div class="group_ogrode">
+            <p class="ogrode">
+                <span class="RedStar">*</span>
+                Напишите про свой город:
+            </p>
+            <textarea id="ogrode" name='ogrode' type="text" placeholder="" required></textarea>
+        </div>
+
+        <div class="group_nravitsa">
+            <p class="nravitsa">
+                <span class="RedStar">*</span>
+                Он Вам нравится?
+            </p>
+            <textarea id="nravitsa" name='nravitsa' type="text" placeholder="" required></textarea>
+        </div>
+
+        <div class="group_pereezd">
+            <p class="pereezd">
+                <span class="RedStar">*</span>
+                Вы советуете его для переезда?
+            </p>
+            <textarea id="pereezd" name="pereezd" type="text" placeholder="" required></textarea>   
+        </div>
+        
+    <button class="button"> Отправить </button>
+
+    <p class="end">
+        <span class="RedStar">*</span> - обязательный вопрос <br>
+        <br>
+        Спасибо!!
+    </p>
+    </fieldset>
+</form> 
+
+
+
+
+</body>
+</html>
